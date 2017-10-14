@@ -5,12 +5,6 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
-/* MongoDB setup  */
-var mongoclient = require('mongodb').MongoClient;
-var assert = require('assert');
-// Connection URL
-var url = 'mongodb://localhost:27017/nodetest2';
-
 var index = require('./routes/index');
 var users = require('./routes/users');
 
