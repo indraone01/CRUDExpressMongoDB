@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  //wrapper
+  #wrapper
+    //userlist
+    h2 User List
+    #userlist
+      table
+        thead
+          th Username
+          th Email
+          th Action
+        tbody
+    // /userlist
+  // /wrapper
