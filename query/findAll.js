@@ -10,10 +10,6 @@ module.exports = (callback) => {
         assert.equal(null, err);
 
         console.log('Connected correctly to server');
-        /*findAll(db, (err, data) => {
-            assert.equal(err, null);
-            res.json(data);
-        });*/
 
         //get userlist form userlist collection
         var collection = db.collection('userlist');
